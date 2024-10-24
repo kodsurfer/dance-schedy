@@ -18,6 +18,13 @@ class Class:
         self.leaders = 0
         self.followers = 0
 
+    def sign_up(self, student):
+        if len(self.students) >= self.capacity:
+            return False
+        
+        self.students.append(student)
+        self.capacity -= 1
+
 
 if __name__ == '__main__':
     main()
