@@ -21,7 +21,7 @@ class Class:
     def sign_up(self, student):
         if len(self.students) >= self.capacity:
             return False
-        
+
         self.students.append(student)
         self.capacity -= 1
 
