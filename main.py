@@ -21,9 +21,13 @@ class Class:
     def sign_up(self, student):
         if len(self.students) >= self.capacity:
             return False
-
+        if student.role == 'leader':
+            if self.leaders - self.followers >= 2:
+                return False
+            self.followers += 1
         self.students.append(student)
         self.capacity -= 1
+        return True
 
 
 if __name__ == '__main__':
