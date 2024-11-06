@@ -13,6 +13,7 @@ class Student:
 
 class Class:
     def __init__(self, name, room, capacity):
+        ''' init '''
         self.name = name
         self.room = room
         self.capacity = capacity
