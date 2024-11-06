@@ -1,3 +1,4 @@
+''' Dance School Scheduler '''
 def main():
     print('Welcome to the Dance School Scheduler')
     while True:
@@ -6,6 +7,7 @@ def main():
 
 
 class Student:
+    ''' Student '''
     def __init__(self, name, role):
         ''' init '''
         self.name = name
