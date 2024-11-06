@@ -7,6 +7,7 @@ def main():
 
 class Student:
     def __init__(self, name, role):
+        ''' init '''
         self.name = name
         self.role = role
 
