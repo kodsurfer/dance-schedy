@@ -21,6 +21,7 @@ class Class:
         self.followers = 0
 
     def sign_up(self, student):
+        ''' sign_up '''
         if len(self.students) >= self.capacity:
             return False
         if student.role == 'leader':
