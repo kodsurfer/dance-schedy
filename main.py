@@ -15,6 +15,7 @@ class Student:
 
 
 class Class:
+    ''' Class '''
     def __init__(self, name, room, capacity):
         ''' init '''
         self.name = name
