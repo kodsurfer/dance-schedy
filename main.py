@@ -3,7 +3,6 @@ def main():
     ''' main '''
     print('Welcome to the Dance School Scheduler')
     while True:
-
         break
 
 
